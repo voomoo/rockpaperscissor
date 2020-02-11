@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissor</title>
+</head>
+<body>
+    <div id="vue-app">
+        <h1>{{ initial }}</h1>
+        <div v-bind:style = "{background: pc}" class="comp"></div>
+        <div class="control">
+            <div class="st" v-on:click = 'game(0)'>
+                <div class="rock" ></div>
+                <h4>Rock</h4>
+            </div>
+            <div class="st" v-on:click = 'game(1)'>
+                <div class="paper" ></div>
+                <h4>Paper</h4>
+            </div>
+            <div class="st" v-on:click = 'game(2)'>
+                <div class="scissor" ></div>
+                <h4>Scissor</h4>
+            </div>
+        </div>
+        <div class="res">
+            <h1>{{ result }}</h1>
+        </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

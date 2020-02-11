@@ -1,0 +1,56 @@
+body{
+    background: #8796E8;
+}
+
+#vue-app{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+.comp{
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    width: 256px;
+    height: 256px;
+}
+.control{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+.st{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.rock{
+    background: url('assets/rock.png');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+.paper{
+    background: url('assets/paper.png');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+.scissor{
+    background: url('assets/scissors.png');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+h4{
+    user-select: none;
+}
