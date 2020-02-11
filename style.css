@@ -32,27 +32,28 @@ body{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    margin: 5px;
 }
 .rock{
     background: url('assets/rock.png');
     background-size: 50px;
     width: 50px;
     height: 50px;
-    margin: 5px;
+    
 }
 .paper{
     background: url('assets/paper.png');
     background-size: 50px;
     width: 50px;
     height: 50px;
-    margin: 5px;
+    
 }
 .scissor{
     background: url('assets/scissors.png');
     background-size: 50px;
     width: 50px;
     height: 50px;
-    margin: 5px;
+ 
 }
 h4{
     user-select: none;
